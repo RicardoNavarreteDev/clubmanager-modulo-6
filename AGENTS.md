@@ -154,19 +154,27 @@ clubmanager/
 ## Estado actual
 
 - Carpeta raiz definida: `Proyecto-ABP-M6`
-- La carpeta esta vacia salvo este archivo de contexto
-- Aun no se ha creado `package.json`
-- Aun no se ha inicializado Git
-- Aun no se han instalado dependencias
+- Git inicializado
+- Primer commit realizado: `chore: inicializar proyecto y dependencias`
+- Dependencias instaladas: `express`, `express-handlebars`, `morgan`, `dotenv`
+- Dependencia de desarrollo instalada: `nodemon`
+- Archivos base creados: `.gitignore`, `.env.example`, `.env`, `package.json`
+- Servidor Express funcional con `dotenv` y `morgan`
+- Handlebars configurado y renderizando la vista `home`
+- Archivos estaticos configurados desde `public/`
+- Estructura modular iniciada con:
+  - `src/controllers/home.controller.js`
+  - `src/controllers/players.controller.js`
+  - `src/routes/home.routes.js`
+  - `src/views/layouts/main.handlebars`
+  - `src/views/home.handlebars`
+  - `src/views/players.handlebars`
+- `src/app.js` ya conecta `home.routes.js`
+- Siguiente archivo pendiente: `src/routes/players.routes.js`
 
 ## Siguiente paso recomendado
 
-Crear `package.json` con `npm init -y` y luego revisar su contenido para adaptar:
-
-- nombre del proyecto
-- `type: module`
-- scripts
-- dependencias y dependencias de desarrollo
+Crear `src/routes/players.routes.js`, conectarlo desde `src/app.js` y probar la ruta `/jugadores`.
 
 ## Nota para futuras sesiones
 
