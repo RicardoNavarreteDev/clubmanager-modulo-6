@@ -162,7 +162,6 @@ Proyecto-ABP-M6/
 │   └── server.js
 ├── .env.example
 ├── .gitignore
-├── AGENTS.md
 ├── package.json
 └── README.md
 ```
