@@ -1,5 +1,7 @@
 # ClubManager
 
+Repositorio: `https://github.com/RicardoNavarreteDev/clubmanager-modulo-6`
+
 Aplicacion web backend construida con Node.js y Express para la entrega academica del Modulo 6. El proyecto representa la base de `ClubManager`, una plataforma de gestion para clubes o equipos deportivos, usando como ejemplo inicial a `Club Prueba`.
 
 En esta primera entrega el objetivo es dejar una base funcional, modular y documentada, con rutas publicas, vistas con Handlebars, archivos estaticos y persistencia simple en archivo plano.
